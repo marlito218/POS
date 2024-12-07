@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manager Side</title>
+  <link rel="stylesheet" href="manager.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>Manager Side</h1>
+      <!-- Navigation links for Receipts, Sales, Finance -->
+      <nav>
+        <ul>
+          <li><a href="transaction.html">Receipts</a></li>
+          <li><a href="sales.html">Sales</a></li>
+          <li><a href="finance.html">Finance</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="manager-side">
+      <h2>Manage Products</h2>
+      
+      <!-- Search bar -->
+      <input type="text" id="search-bar" placeholder="Search by Product ID..." />
+    
+      <table id="product-table">
+        <thead>
+          <tr>
+            <th>Product ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Product rows will be dynamically generated -->
+        </tbody>
+      </table>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Product Selling System</p>
+  </footer>
+
+  <script src="manager.js"></script>
+</body>
+</html>

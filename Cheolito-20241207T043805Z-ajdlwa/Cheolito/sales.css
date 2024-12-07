@@ -1,0 +1,99 @@
+/* General Reset */
+body, h1, h2, table {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f9f9f9, #ececec);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Section Headers */
+  h2 {
+    margin: 20px 0 10px;
+    font-size: 1.8em;
+    color: #444;
+    border-left: 5px solid #6c63ff;
+    padding-left: 10px;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  /* Table Head */
+  thead {
+    background: #6c63ff;
+    color: #fff;
+  }
+  
+  thead th {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Table Body */
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s ease;
+  }
+  
+  tbody tr:hover {
+    background: #f1f1f1;
+  }
+  
+  tbody td {
+    padding: 15px;
+  }
+  
+  /* Product Breakdown Styling */
+  td:last-child {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    table {
+      font-size: 0.9em;
+    }
+  }
+  
